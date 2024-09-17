@@ -14,6 +14,5 @@ public class UniqueWordsMapper extends Mapper<Object, Text, Text, Text> {
 
     @Override
     public void map(Object key, Text value, Context context) throws IOException, InterruptedException {
-
     }
 }
